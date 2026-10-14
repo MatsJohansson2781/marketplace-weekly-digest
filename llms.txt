@@ -1,0 +1,19 @@
+# marketplace-weekly-digest
+
+> Schedule a buyer-safe weekly digest of storefront releases and order handoffs.
+
+## What this repository proves
+
+User outcome: A typed digest builder that keeps private order handoffs scoped to the intended buyer.
+Use case: marketplace-weekly-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.cron.create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_digest_builder.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

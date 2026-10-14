@@ -1,0 +1,28 @@
+{
+  "audience_email": "mina@example.com",
+  "week_label": "September 7",
+  "seller_assets": [
+    {
+      "seller_name": "North Street Ceramics",
+      "title": "Pour-over set",
+      "storefront_url": "https://shop.example.com/pour-over",
+      "status": "published"
+    }
+  ],
+  "buyer_updates": [
+    {
+      "buyer_email": "mina@example.com",
+      "topic": "Saved shop",
+      "detail": "North Street Ceramics added three pieces."
+    }
+  ],
+  "order_handoffs": [
+    {
+      "order_number": "A-1042",
+      "buyer_email": "mina@example.com",
+      "seller_name": "North Street Ceramics",
+      "next_step": "Pickup is ready at the studio desk.",
+      "ready": true
+    }
+  ]
+}
